@@ -23,16 +23,19 @@ export function Integrantes(){
     ]
 
     return(
-       <div classsName="row row-cols-1 row-cols-md2 g-0 mt-5">
+       <div classsName="row row-cols-1 row-cols-md-4 g-0 mt-5">
 
             {
-                integrantes.map(function(integrantes){
+                integrantes.map(function(integrante){
                     return(
                         <>
-                            <div classsName="col mt-3">
+                            <div classsName="col mt-3 bg-dark p-5">
                                 <div className="card h-100">
-                                    <img src={Integrantes.fotografia} alt="foto" className="img-fluid w-100 h-100" ></img>
-                                    
+                                    <img src={integrante.fotografia} alt="foto" className="img-fluid w-100 h-100" ></img>
+                                    <h4 className="text-center">{integrante.nombre}</h4>
+                                    <br></br>
+                                    <h5 className="text-center ">{integrante.instrumento}</h5>
+                                    <h5 className="text-center ">{integrante.edad}</h5>
                                 </div>    
 
 
