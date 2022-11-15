@@ -9,7 +9,6 @@ import{Menu} from '../Menu/Menu.js'
 export function Rutas(){
     return (
         <div classNameName="App">
-          <h1>Welcome to React Router!</h1>
           <Menu></Menu>
           <Routes>
             <Route path="/" element={<Home />} />
