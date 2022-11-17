@@ -29,26 +29,34 @@ export function Home(){
 
 
 
-                <div className='footer'>
-                    <div className="d-flex justify-content-evenly contfooter">
-                        <div className=''>
-                            <p>Politica de privacidad</p>
-                        </div>
-                        <div >
-                            <p>Terminos y condiciones</p>
-                        </div>
-                        <div >
-                            <p>Proteccion de datos personales</p>
-                        </div>
-                        <div >
-                            <p>Avisos fraude</p>
-                        </div>
-                        <div>
-                            <img className='imgfooter' src="https://firebasestorage.googleapis.com/v0/b/cinedc.appspot.com/o/logo.jpg?alt=media&token=2ca6933c-737f-4f7d-bf7b-39648c60085a" />
-                        </div>
+                <footer>
+                    <div className="container-fluid footer">
+
+                         <div className='row d-flex d-flex justify-content-around'>
+
+                            <div className=''>
+                                <img className='imgfooter' src="https://firebasestorage.googleapis.com/v0/b/cinedc.appspot.com/o/logo.jpg?alt=media&token=2ca6933c-737f-4f7d-bf7b-39648c60085a" />
+                            </div>
+                            <div className=''>
+                                <h4>Avisos fraude</h4>
+                            </div>
+                            <div className=''>
+                                <h4>Proteccion de datos personales</h4>
+                            </div>
+                            <div className=''>
+                                <h4>Terminos y condiciones</h4>
+                            </div>                   
+                           <div className=''>
+                              <h4>Politica de privacidad</h4>
+                            </div>
+                            
+                         </div>
+                       
+                        
+                    
                        
                     </div>
-                </div>
+                </footer>
 
                 </div>
             </section>
