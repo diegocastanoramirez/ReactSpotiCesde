@@ -32,22 +32,19 @@ export function Home(){
                 <footer>
                     <div className="container-fluid footer">
 
-                         <div className='row d-flex d-flex justify-content-around'>
+                         <div className='d-flex justify-content-around'>
 
                             <div className=''>
-                                <img className='imgfooter' src="https://firebasestorage.googleapis.com/v0/b/cinedc.appspot.com/o/logo.jpg?alt=media&token=2ca6933c-737f-4f7d-bf7b-39648c60085a" />
+                                <h6>Proteccion de datos personales</h6>
                             </div>
                             <div className=''>
-                                <h4>Avisos fraude</h4>
-                            </div>
-                            <div className=''>
-                                <h4>Proteccion de datos personales</h4>
-                            </div>
-                            <div className=''>
-                                <h4>Terminos y condiciones</h4>
+                                <h6>Terminos y condiciones</h6>
                             </div>                   
                            <div className=''>
-                              <h4>Politica de privacidad</h4>
+                              <h6>Politica de privacidad</h6>
+                            </div>
+                            <div className=''>
+                                <img className='imgfooter' src="https://firebasestorage.googleapis.com/v0/b/cinedc.appspot.com/o/logo.jpg?alt=media&token=2ca6933c-737f-4f7d-bf7b-39648c60085a" />
                             </div>
                             
                          </div>
